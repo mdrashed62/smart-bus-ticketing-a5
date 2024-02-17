@@ -13,7 +13,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="inter raleway">
-    <nav class="flex items-center justify-between w-[1170px] mx-auto mt-8">
+    <!-- started the navbar -->
+    <nav class="flex items-center justify-between lg:w-[1170px] mx-auto mt-8">
       <div>
         <h1 class="text-4xl font-bold">P-Ticket</h1>
       </div>
@@ -24,25 +25,101 @@
         </button>
       </div>
     </nav>
+    <!-- end the navbar -->
+
+    <!-- started the header section -->
     <header
-      class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat w-[1170px] mx-auto mt-6"
+      class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat lg:w-[1170px] mx-auto mt-6"
     >
       <div class="text-center pt-[90px]">
         <h1 class="text-6xl font-bold text-white">
           End-to-End Travel with <br />
-          <span class="text-green-600 text-5xl font-bold">P Paribahan</span>
+          <span class="text-[#1DD100] text-6xl font-bold">P Paribahan</span>
         </h1>
       </div>
       <div class="text-center space-y-4 mt-6">
-        <p class="text-white">
+        <p class="text-white opacity-70">
           Bus services or companies often provide transportation for passengers,
           <br />
           connecting various locations within a city, region, or country
         </p>
-        <button class="btn btn-success font-bold px-6">Buy Tickets</button>
+        <button class="btn btn-success font-bold bg-[#1DD100] px-6">
+          Buy Tickets
+        </button>
       </div>
     </header>
-    <main></main>
+    <!-- end the header section -->
+
+    <!-- started the main section -->
+    <main>
+      <!-- main section-1 -->
+      <section class="w-[1170px] mx-auto space-y-10">
+        <div class="text-4xl text-center font-bold">
+          <h1>Best offers for you</h1>
+        </div>
+
+        <!-- start card -->
+        <div class="card-container flex gap-8">
+          <!-- fast card -->
+          <div class="card w-[570px] bg-[#FFBF0F]">
+            <div class="flex justify-evenly">
+              <div class="flex justify-center items-center">
+                <h2>
+                  <span class="text-4xl font-extrabold">15% oFF</span> <br />
+                  <span class="text-2xl font-bold">on your next purchase</span>
+                  <br />
+                  <span class="text-xl font-semibold opacity-60"
+                    >use by January 2024</span
+                  >
+                </h2>
+              </div>
+              <div class="">
+                <img src="images/cupon-devider.png" alt="" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h1>
+                  <span class="text-3xl font-extrabold">NEW15</span> <br />
+                  <span class="text-xl opacity-60">Coupon Code</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card w-[570px] bg-[#F78C9C]">
+            <div class="flex justify-evenly">
+              <div class="flex justify-center items-center">
+                <h2>
+                  <span class="text-4xl font-extrabold">20% oFF</span> <br />
+                  <span class="text-2xl font-bold">on your next purchase</span>
+                  <br />
+                  <span class="text-xl font-semibold opacity-60"
+                    >use by January 2024</span
+                  >
+                </h2>
+              </div>
+              <div class="">
+                <img src="images/cupon-devider.png" alt="" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h1>
+                  <span class="text-3xl font-extrabold">Couple 20</span> <br />
+                  <span class="text-xl opacity-60">Coupon Code</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+
+        <div class="text-center">
+          <button class="btn btn-outline btn-success px-6 font-bold">
+            See All Offers
+          </button>
+        </div>
+      </section>
+      <!-- end the main section-1 -->
+    </main>
+    <!-- end the main section -->
     <script src="scripts/script.js"></script>
   </body>
 </html>
