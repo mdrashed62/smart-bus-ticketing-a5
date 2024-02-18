@@ -29,9 +29,10 @@
 
     <!-- started the header section -->
     <header
+      id="header"
       class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat lg:w-[1170px] mx-auto mt-6"
     >
-      <div class="text-center pt-[90px]">
+      <div class="text-center lg:pt-[90px]">
         <h1 class="text-3xl lg:text-6xl font-bold text-white">
           End-to-End Travel with <br />
           <span class="text-[#1DD100] text3xl lg:text-6xl font-bold"
@@ -206,81 +207,138 @@
       <!-- started the last section -->
       <section class="w-[1170px] mx-auto">
         <!-- start left side -->
-        <div class="w-[55%] mt-8 border">
-          <div class="text-xl font-bold opacity-70">
-            <h2>Select Your Seat</h2>
-          </div>
-          <hr />
-          <div class="flex justify-between">
-            <div class="flex gap-3">
-              <img src="images/seat-gray.png" alt="" />
-              <p>Available</p>
+        <div class="flex gap-40">
+          <div class="w-[55%] mt-8">
+            <div class="text-xl font-bold opacity-70">
+              <h2>Select Your Seat</h2>
+            </div>
+            <hr />
+            <div class="flex justify-between">
+              <div class="flex gap-3">
+                <img src="images/seat-gray.png" alt="" />
+                <p>Available</p>
+              </div>
+
+              <div class="flex gap-3">
+                <img src="images/seat-green-filled.png" alt="" />
+                <p>Selected</p>
+              </div>
+            </div>
+            <hr />
+            <div class="flex justify-between mt-6">
+              <div></div>
+              <div class="bg-[#0307121A] px-8 py-2 rounded-lg">
+                <svg
+                  width="26.000000"
+                  height="26.000000"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Vector"
+                    d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333"
+                    stroke="#030712"
+                    stroke-opacity="0.700000"
+                    stroke-width="2.000000"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
             </div>
 
-            <div class="flex gap-3">
-              <img src="images/seat-green-filled.png" alt="" />
-              <p>Selected</p>
+            <!-- seat -->
+            <div>
+              <div class="flex items-center">
+                <span>A</span>
+                <div class="pl-4">
+                  <kbd class="kbd px-10 m-4">A1</kbd>
+                  <kbd class="kbd px-10 m-4">A2</kbd>
+                </div>
+                <div class="ml-20">
+                  <kbd class="kbd px-10 m-4">A3</kbd>
+                  <kbd class="kbd px-10 m-4">A4</kbd>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <span>B</span>
+                <div class="pl-4">
+                  <kbd class="kbd px-10 m-4">B1</kbd>
+                  <kbd class="kbd px-10 m-4">B2</kbd>
+                </div>
+                <div class="ml-20">
+                  <kbd class="kbd px-10 m-4">B3</kbd>
+                  <kbd class="kbd px-10 m-4">B4</kbd>
+                </div>
+              </div>
             </div>
+            <!-- end seat -->
           </div>
-          <hr />
-          <div class="flex justify-between mt-6">
-            <div></div>
-            <div class="bg-[#0307121A] px-8 py-2 rounded-lg">
-              <svg
-                width="26.000000"
-                height="26.000000"
-                viewBox="0 0 26 26"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <desc>Created with Pixso.</desc>
-                <defs />
-                <path
-                  id="Vector"
-                  d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333"
-                  stroke="#030712"
-                  stroke-opacity="0.700000"
-                  stroke-width="2.000000"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
+          <!-- end left side -->
+
+          <!-- start right side -->
+          <div class="">
+            <div class="text-xl font-bold opacity-70">
+              <h2>Select Your Seat</h2>
+            </div>
+            <hr />
+            <div>
+              <div class="flex justify-between">
+                <h1 class="font-semibold">
+                  seat <span class="bg-[#1DD100] text-white">0</span>
+                </h1>
+                <p class="font-semibold">Class</p>
+                <p class="font-semibold">Price</p>
+              </div>
+              <hr />
+              <div></div>
+              <hr />
+              <div class="flex justify-between">
+                <h3>Total Price</h3>
+                <span>0</span>
+              </div>
+              <div class="join">
+                <input
+                  class="input text-[14px] input-bordered join-item"
+                  placeholder="Have any coupon?"
                 />
-              </svg>
+                <button class="btn text-[16px] join-item bg-[#1DD100]">
+                  Apply
+                </button>
+              </div>
+              <div class="flex justify-between">
+                <h3>Grand Total</h3>
+                <span>0</span>
+              </div>
+            </div>
+            <div class="">
+              <h3 class="font-bold">Passenger Name*</h3>
+              <input class="text-sm bg-[#0307120D] font-semibold px-14 py-3
+              rounded-lg type="text" name="" placeholder="Enter your name" id=""
+              />
+              <h3 class="font-bold">Phone Number*</h3>
+              <input class="text-sm bg-[#0307120D] font-semibold px-14 py-3
+              rounded-lg type="text" name="" placeholder="Enter your phone
+              number" id="" />
+              <h3 class="font-bold">Email Id</h3>
+              <input class="text-sm bg-[#0307120D] font-semibold px-14 py-3
+              rounded-lg type="text" name="" placeholder="Enter your email id"
+              id="" />
+              <div class="flex justify-center mt-6">
+                <button class="btn btn-wide bg-[#1DD100]">Next</button>
+              </div>
+              <div class="text-sm text-center">
+                <a href="#">terms and conditions</a>
+                <a href="#">cancellation policy</a>
+              </div>
             </div>
           </div>
-
-          <!-- seat -->
-          <div>
-            <div class="flex items-center">
-              <span>A</span>
-              <div class="pl-4">
-                <kbd class="kbd px-10 m-4">A1</kbd>
-                <kbd class="kbd px-10 m-4">A2</kbd>
-              </div>
-              <div class="ml-20">
-                <kbd class="kbd px-10 m-4">A3</kbd>
-                <kbd class="kbd px-10 m-4">A4</kbd>
-              </div>
-            </div>
-            <div class="flex items-center">
-              <span>B</span>
-              <div class="pl-4">
-                <kbd class="kbd px-10 m-4">B1</kbd>
-                <kbd class="kbd px-10 m-4">B2</kbd>
-              </div>
-              <div class="ml-20">
-                <kbd class="kbd px-10 m-4">B3</kbd>
-                <kbd class="kbd px-10 m-4">B4</kbd>
-              </div>
-            </div>
-          </div>
-          <!-- end seat -->
+          <!-- end right side -->
         </div>
-        <!-- end left side -->
-
-        <!-- start right side -->
-        <div class=""></div>
-        <!-- end right side -->
       </section>
       <!-- end the last section -->
     </main>
